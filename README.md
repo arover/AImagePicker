@@ -1,7 +1,4 @@
-# <img src="http://7xpb9x.com1.z0.glb.clouddn.com/2017/01/19/c4cb41c69d38f0284c70ba32c2839983.png" width=48 />SImagePicker
-
-[![](https://jitpack.io/v/martin90s/ImagePicker.svg)](https://jitpack.io/#martin90s/ImagePicker)  [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-SImagePicker-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5129)
-
+# AImagePicker
 
 ## 效果图
 ### 第一张头像模式，第二张选择多张图片（包括动画和顺畅的跳转），第三张是分片加载超大图（19.5M，10000*5000px）
@@ -39,7 +36,7 @@ allprojects {
 #### 2.在app目录下的build.gradle中添加依赖
 ```gradle
     //SImagePicker
-	compile 'com.github.martin90s:ImagePicker:v1.3.2'
+	compile 'com.github.arover:AImagePicker:v1.3.3'
 ```
 
 # 如何使用
@@ -104,5 +101,4 @@ allprojects {
 * 增加一个普通模式。由于现在预览为了支持超大图所以选择了SubsamplingView。后续增加一个不支持超大图的模式，会更加流畅
 * Glide下由于glide的缓存策略，跳转动画第一次播放会闪一下，下版修复此问题
 
-##联系方式
-* 邮箱地址： martinhi2016@gmail.com
+
