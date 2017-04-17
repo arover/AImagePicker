@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">imagePicker</string>
     <string name="general_ok">确定</string>
     <string name="general_cancel">取消</string>
     <string name="general_send">发送</string>
